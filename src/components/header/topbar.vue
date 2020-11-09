@@ -5,7 +5,7 @@
     <!-- 搜索歌曲 -->
     <!-- @clear="searchMusic" -->
     <div class="searchbox">
-      <el-input placeholder="请输入内容" v-model="query" clearable @keyup.enter="searchMusic" autocomplete="off">
+      <el-input placeholder="请输入内容" v-model="query" clearable @change="searchMusic" autocomplete="off" >
         <el-button slot="append" icon="el-icon-search" @click="searchMusic" ></el-button>
       </el-input>
     </div>

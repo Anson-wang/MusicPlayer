@@ -22,13 +22,13 @@ export default {
 <style>
 .comment_wrapper {
     width: 180px;
-    height: 435px;
+    height: 410px;
     list-style: none;
     position: absolute;
     left: 600px;
     top: 0px;
     padding: 25px 10px;
-    /* overflow: hidden; */
+    overflow: hidden;
 }
 
 .comment_wrapper .title {
@@ -39,7 +39,7 @@ export default {
 
 .comment_wrapper .comment_list {
     overflow: auto;
-    height: 410px;
+    height: 380px;
     margin-top: 20px;
 }
 
